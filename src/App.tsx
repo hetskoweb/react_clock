@@ -37,8 +37,7 @@ export class App extends React.Component {
     return `Clock-${value}`;
   };
 
-  handleClick = (event: MouseEvent) => {
-    event.preventDefault();
+  handleClick = () => {
     this.setState({ hasClock: true });
   };
 
